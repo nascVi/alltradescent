@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          All Trades Cent.
         </a>
       </header>
     </div>
