@@ -1,8 +1,21 @@
 import './App.css';
+// import { useWeb3React } from "@web3-react/core";
+// import { injected } from "./wallet/Connector";
+// import web3 from "web3";
+
 
 function App() {
   // Main Banner Image
-  const mainBgImage = "https://img.freepik.com/free-vector/comic-versus-fighting-cartoon-background-vs-blue-yellow_311284-11.jpg?size=626&ext=jpg";
+  // const { active, account, library, activate, deactivate } = useWeb3React();
+  const mainBgImage = "https://jamesmichie.com/blog/wp-content/uploads/2020/05/Empire-Luke-Vader.gif";
+
+  // async function connect() {
+  //   try {
+  //     await activate(injected);
+  //   } catch (ex) {
+  //     console.log(ex)
+  //   }
+  // }
 
   // Apes Image Data
   const items = [
@@ -45,7 +58,12 @@ function App() {
               <img src={item.img} alt={`item_${index}`} />
             </div>
             <div className="btn-wrapper">
-              <button type="button" className="sm-mint-button">Trade</button>
+              <button
+              type="button"
+              className="sm-mint-button"
+              // onClick={connect}
+              >
+                Trade</button>
             </div>
           </div>
         ))}

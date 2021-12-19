@@ -11,7 +11,7 @@
 .main-card__inner-wrapper {
   display: flex;
   box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 3px;
 }
 
 .main-card-wrapper {
@@ -23,13 +23,13 @@
 }
 .main-card__inner-wrapper {
   flex-flow: column;
-  background: linear-gradient(90deg, wheat 0%, #f5deb3cc 50%, #f5deb300 100%);
+  background: linear-gradient(90deg, white 0%, transparent 50%, #f5deb300 100%);
   width: 100%;
-  padding: 100px 5vw;
+  padding: 100px 3vw;
 }
 
 .header-txt {
-  color: #404040;
+  color: whitesmoke;
   font-size: 4em;
   max-width: 350px;
   line-height: 1em;
@@ -97,7 +97,7 @@
 .main-mint-btn:hover,
 .sm-mint-button:hover {
   background-color: #a2e5f4;
-  font-weight: bold
+  color: #404040;
 }
 
 /* BUTTONS END */
